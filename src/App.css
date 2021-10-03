@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background-color: darkblue;
+}
+
+#header {
+  background-color: yellow;
+  color: darkblue;
+  font-family: "Pokemon Solid", sans-serif;
+  font-size: 100px;
+  padding: 0px;
+  margin: 0px;
+  height: 200px;
+  line-height: 150px;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: "Pokemon Solid", sans serif;
+  font-size: 50px;
+  color: azure;
+  letter-spacing: 4px;
+}
+
+button {
+  border: 1px solid black;
+  justify-content: center;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+#Card {
+  border: 2px solid black;
+  justify-content: center;
+  background-color: gray;
+  padding: 5px;
+  margin: 2px;
+  box-shadow: 12px 12px 5px 5px rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  font-family: "Pokemon Solid", sans serif;
+  color: darkblue;
+  text-transform: uppercase;
+}
+
+#characterName {
+  letter-spacing: 4px;
+  font-size: 22px;
+}
+
+.typeWrapper,
+.moveWrapper {
+  font-size: 20px;
+  letter-spacing: 3px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typeWrapper > span {
+  font-size: 30px;
+  line-height: 45px;
+  margin-left: 10px;
+  margin-top: -15px;
+}
+
+@font-face {
+  font-family: Pokemon Solid;
+  src: url(Pokemon\ Solid.ttf);
+}
+
+#title {
+  justify-content: left;
+  font-size: 22px;
+  color: azure;
+  letter-spacing: 4px;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+/*  POKEBALL CSS  */
+*:before,
+*:after {
+  content: "";
+  position: absolute;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  transform: scale(60%);
+  max-height: 156px;
+  margin-top: -60px;
+  cursor: pointer;
+}
+
+.pokeball {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  border: 8px solid #333;
+  box-shadow: inset -10px 10px 0 10px #ccc;
+}
+.pokeball.fixed {
+  overflow: visible;
+}
+.pokeball .pokeball-btn {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 62px;
+  height: 62px;
+  background-color: white;
+  border: 5px solid #333;
+  position: absolute;
+  margin: 64px;
+}
+.pokeball .pokeball-btn::after {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  background-color: #a2a2a2;
+  border: 5px solid #333;
+  position: absolute;
+  left: -4.2px;
+  top: -4.2px;
+  margin: 7px;
+}
+.pokeball.poke::before {
+  -webkit-border-radius: 100px 100px 0 0;
+  -moz-border-radius: 100px 100px 0 0;
+  border-radius: 100px 100px 0 0;
+  width: 200px;
+  height: 90px;
+  position: absolute;
+  left: 0;
+  background-color: #e62327;
+  border-bottom: 20px solid #333;
+}
+.pokeball.poke {
+  background: white;
+}
+
+/*  POKEBALL CSS  */
