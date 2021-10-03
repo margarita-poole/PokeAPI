@@ -27,7 +27,7 @@ function App() {
         </div>
       </div>
       <Card pokemonData={pokemon}></Card>
-      <div id="footer">©Margarita Poole</div>
+      <div id="footer">© Margarita Poole</div>
     </div>
   );
 }
