@@ -1,6 +1,4 @@
-import Pow from "../images/pow.png"
-
-
+import Pow from "../images/pow.png";
 
 function Card({ pokemonData }) {
   if (pokemonData) {
@@ -23,7 +21,7 @@ function Card({ pokemonData }) {
           alt="Pokemon Pic"
           width="200"
           height="300"
-          style={{margin:'-25px'}}
+          style={{ margin: "-25px" }}
         />
         <div>
           <span id="title">Type: </span>
@@ -98,9 +96,14 @@ function Card({ pokemonData }) {
               const isPunch = pokemonMove.includes("punch");
               console.log(isPunch);
               // condition ? true : false;
-              const formattedPokemonMove = isPunch
-                ? <>{pokemonMove}<img src={Pow}/></>
-                : pokemonMove;
+              const formattedPokemonMove = isPunch ? (
+                <>
+                  {pokemonMove}
+                  <img src={Pow} />
+                </>
+              ) : (
+                pokemonMove
+              );
               return <div className="moveWrapper">{formattedPokemonMove}</div>;
             })}
           </div>

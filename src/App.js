@@ -3,7 +3,6 @@ import "./App.css";
 import { useState } from "react";
 import Card from "./components/Card";
 
-
 function App() {
   const [pokemon, setPokemon] = useState();
   console.log(pokemon);
