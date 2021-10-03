@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Pokemon-Randomizer/static/css/main.4a1899d1.chunk.css",
+    "main.js": "/Pokemon-Randomizer/static/js/main.c1353323.chunk.js",
+    "main.js.map": "/Pokemon-Randomizer/static/js/main.c1353323.chunk.js.map",
+    "runtime-main.js": "/Pokemon-Randomizer/static/js/runtime-main.57253e30.js",
+    "runtime-main.js.map": "/Pokemon-Randomizer/static/js/runtime-main.57253e30.js.map",
+    "static/js/2.01b96bc2.chunk.js": "/Pokemon-Randomizer/static/js/2.01b96bc2.chunk.js",
+    "static/js/2.01b96bc2.chunk.js.map": "/Pokemon-Randomizer/static/js/2.01b96bc2.chunk.js.map",
+    "static/js/3.a58f5969.chunk.js": "/Pokemon-Randomizer/static/js/3.a58f5969.chunk.js",
+    "static/js/3.a58f5969.chunk.js.map": "/Pokemon-Randomizer/static/js/3.a58f5969.chunk.js.map",
+    "index.html": "/Pokemon-Randomizer/index.html",
+    "static/css/main.4a1899d1.chunk.css.map": "/Pokemon-Randomizer/static/css/main.4a1899d1.chunk.css.map",
+    "static/js/2.01b96bc2.chunk.js.LICENSE.txt": "/Pokemon-Randomizer/static/js/2.01b96bc2.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Pokemon-Randomizer/static/media/Pokemon Solid.deb49591.ttf",
+    "static/media/logo.6ce24c58.svg": "/Pokemon-Randomizer/static/media/logo.6ce24c58.svg",
+    "static/media/pow.d1929dc1.png": "/Pokemon-Randomizer/static/media/pow.d1929dc1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57253e30.js",
+    "static/js/2.01b96bc2.chunk.js",
+    "static/css/main.4a1899d1.chunk.css",
+    "static/js/main.c1353323.chunk.js"
+  ]
+}
